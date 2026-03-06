@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Бронювання - TravelDream</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">TravelDream</div>
+    <nav>
+        <a href="index.html">Головна</a>
+        <a href="tours.html">Тури</a>
+        <a href="booking.html">Бронювання</a>
+        <a href="contacts.html">Контакти</a>
+    </nav>
+</header>
+
+<section class="page">
+    <h1>Форма бронювання</h1>
+    
+    <p style="max-width:600px; margin-bottom:30px;">
+Заповніть форму бронювання, щоб залишити заявку на тур.
+Наш менеджер зв'яжеться з вами протягом 30 хвилин для
+підтвердження бронювання та уточнення деталей подорожі.
+</p>
+
+    <form id="bookingForm">
+        <input type="text" placeholder="Ваше ім'я" required>
+        <input type="tel" placeholder="Телефон" required>
+        <input type="email" placeholder="Email" required>
+
+        <select required>
+            <option value="">Оберіть тур</option>
+            <option>Туреччина</option>
+            <option>Єгипет</option>
+            <option>Італія</option>
+        </select>
+
+        <input type="date" required>
+
+        <button type="submit">Відправити заявку</button>
+    </form>
+    <h2 style="margin-top:50px;">Чому варто бронювати у нас?</h2>
+
+<ul style="max-width:600px;">
+<li>10 років досвіду у туристичній сфері</li>
+<li>понад 5000 задоволених клієнтів</li>
+<li>найкращі ціни від туроператорів</li>
+<li>підтримка клієнтів 24/7</li>
+</ul>
+
+    <p id="message"></p>
+</section>
+
+<footer>
+    <p>© 2026 TravelDream</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
